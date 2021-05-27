@@ -39,7 +39,7 @@ booksrouter.get('/', function (req, res) {
     res.render("books",
         {
 
-            nav: [{ link: '/books', name: 'books' }, { link: '/authors', name: 'authors' }, { link: '/login', name: 'login' }, { link: '/addbook', name: 'add new book' }, { link: '/addauthor', name: 'add new author' }],
+            nav: [{ link: '/books', name: 'books' }, { link: '/authors', name: 'authors' }, { link: '/login', name: 'login' }, { link: '/signup', name: 'signup' }, { link: '/addbook', name: 'add new book' }, { link: '/addauthor', name: 'add new author' }],
             title: 'Books',
             books //books array  created abouve for books details
         }
@@ -56,7 +56,7 @@ booksrouter.get('/:id', function (req, res) { //i value from url is acessed usim
     res.render("book",
         {
 
-            nav: [{ link: '/books', name: 'books' }, { link: '/authors', name: 'authors' }, { link: '/login', name: 'login' }, { link: '/addbook', name: 'add new book' }, { link: '/addauthor', name: 'add new author' }],
+            nav: [{ link: '/books', name: 'books' }, { link: '/authors', name: 'authors' }, { link: '/login', name: 'login' }, { link: '/login', name: '/signup' }, { link: '/addbook', name: 'add new book' }, { link: '/addauthor', name: 'add new author' }],
             book: books[id],//books array  created abouve for books details
             title: books[id].title
         }
