@@ -8,7 +8,7 @@ newbookroutes.get('/', function (req, res) {
             nav: [{ link: '/books', name: 'books' }, { link: '/authors', name: 'authors' }, { link: '/login', name: 'login' }, { link: '/addbook', name: 'addbook' }, { link: '/addauthor', name: 'add new author' }],
             
              login:'/login',
-             title:"signup"
+             title:"Add book"
         }
 
 
