@@ -5,7 +5,7 @@ signuprouter.get('/', function (req, res) {
     res.render("signup",
         {
 
-            nav: [{ link: '/books', name: 'books' }, { link: '/authors', name: 'authors' }, { link: '/login', name: 'login' }, { link: '/signup', name: 'signup' }, { link: '/add new book', name: 'add new book' }, { link: '/addauthor', name: 'add new author' }],
+            nav: [{ link: '/books', name: 'books' }, { link: '/authors', name: 'authors' }, { link: '/login', name: 'login' }, { link: '/signup', name: 'signup' }, { link: '/addbook', name: 'add new book' }, { link: '/addauthor', name: 'add new author' }],
             
              login:'/login',
              title:"signup"
